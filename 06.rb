@@ -19,3 +19,4 @@ while !hashes.include? list.hash
 end
 
 puts "Balanced in: #{hashes.count}"
+puts "#{hashes.count - hashes.index(list.hash)}"
